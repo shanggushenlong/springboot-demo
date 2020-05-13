@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.w3.org">
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>id</td>
+            <td>username</td>
+            <td>age</td>
+        </tr>
+        <tr th:each="stu : ${students}">
+            <td th:text="${stu.id}"></td>
+            <td th:text="${stu.username}"></td>
+            <td th:text="${stu.age}"></td>
+        </tr>
+    </table>
+</body>
+</html>
