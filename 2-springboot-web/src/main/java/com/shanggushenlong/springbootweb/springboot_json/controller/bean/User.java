@@ -1,4 +1,4 @@
-package com.shanggushenlong.springbootweb.bean;
+package com.shanggushenlong.springbootweb.springboot_json.controller.bean;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -14,7 +14,7 @@ public class User {
     private String id;
     private String username;
     private Integer age;
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+   // @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date birthday;
 
     public Date getBirthday() {

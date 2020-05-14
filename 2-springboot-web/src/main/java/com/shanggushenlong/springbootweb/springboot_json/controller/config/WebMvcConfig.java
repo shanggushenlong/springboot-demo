@@ -1,7 +1,6 @@
-package com.shanggushenlong.springbootweb.config;
+package com.shanggushenlong.springbootweb.springboot_json.controller.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.tracing.ProbeName;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
